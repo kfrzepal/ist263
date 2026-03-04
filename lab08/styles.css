@@ -1,7 +1,7 @@
 body {background-color:#F5F5F5}
 p {color:#ff87ab}
 a {color:#3d81b8 }
-h1. h2 {color: #ff5d8f}
+h1, h2 {color: #ff5d8f}
 nav {
     background-color:#ffa6c1;
     padding: 10px;
@@ -29,5 +29,6 @@ nav a:hover {background-color:#FFFFFF}
 .address{padding: 30px;}
 
 .form{padding: 10px;flex: 1; color:#ff87ab}
-
 .map {flex: 3}
+
+form label {color:#ff87ab}
