@@ -14,3 +14,30 @@ nav a:hover {background-color:#FFFFFF}
     float: right;
     padding: 10px;
 }
+.addresses {
+    display: flex;
+    background-color: #fae8f1;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.formmap {
+    display: flex; 
+    background-color: #fae8f1;
+    border-radius: 1em;
+    padding: 20px;
+}
+
+.address{
+    padding: 30px;
+
+}
+
+.form{
+    padding: 10px;
+    flex: 1
+}
+
+.map {
+    flex: 2
+}
