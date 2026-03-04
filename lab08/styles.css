@@ -26,16 +26,8 @@ nav a:hover {background-color:#FFFFFF}
     padding: 20px;
 }
 
-.address{
-    padding: 30px;
+.address{padding: 30px;}
 
-}
+.form{padding: 10px;flex: 1}
 
-.form{
-    padding: 10px;
-    flex: 1
-}
-
-.map {
-    flex: 2
-}
+.map {flex: 3}
