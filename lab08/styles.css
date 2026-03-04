@@ -9,11 +9,9 @@ nav {
 }
 nav a {color: #094e86}
 nav a:hover {background-color:#FFFFFF}
+
 .quote {float: right}
-.image1 {
-    float: right;
-    padding: 10px;
-}
+.image1 {float: right; padding: 10px;}
 .addresses {
     display: flex;
     background-color: #fae8f1;
