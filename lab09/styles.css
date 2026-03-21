@@ -35,7 +35,7 @@ form label {color:#ff87ab}
 
 .skillsheading {text-align: center;}
 
-.firstrow {display: flex; background-color:#fae8f1;}
+.firstrow {display: flex; background-color:#fae8f1; border-radius: 1em;}
 .skillstable {padding: 10em; margin: 0 auto; flex-basis: center;}
 .skillsimage {padding: 10em; text-align: center; flex-basis: center;}
 
