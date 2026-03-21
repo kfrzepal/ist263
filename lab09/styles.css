@@ -1,0 +1,39 @@
+body {background-color:#F5F5F5}
+p {color:#ff87ab}
+a {color:#3d81b8 }
+h1 {color: #ff5d8f}
+nav {
+    background-color:#ffa6c1;
+    padding: 10px;
+    margin-bottom: 30px
+}
+nav a {color: #094e86}
+nav a:hover {background-color:#FFFFFF}
+
+.quote {float: right}
+.image1 {float: right; padding: 10px;}
+.addresses {
+    display: flex;
+    background-color: #fae8f1;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.formmap {
+    display: flex; 
+    background-color: #fae8f1;
+    border-radius: 1em;
+    padding: 20px;
+}
+
+.address{padding: 30px;}
+
+.form {padding: 10px;flex: 1; color:#ff87ab}
+.map {flex: 3em; border-radius: 1em}
+
+form label {color:#ff87ab}
+
+.skillsheading {text-align: center;}
+
+.firstrow {display: flex}
+
