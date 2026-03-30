@@ -7,11 +7,14 @@
         <style>
             h1{cursor: pointer;}
         </style>
+        <script>
+            function SecondBlock() {alert('Second Alert');}
+        </script>
     </head>
 
     <body>
         <script>alert('I am sending an alert!');</script>
-        <h1>Classic First JavaScript Program</h1>
+        <h1 onclick="SecondBlock()">Classic First JavaScript Program</h1>
         <p>paragraph1</p>
         <p>paragraph2</p>
     </body>
