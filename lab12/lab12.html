@@ -22,24 +22,34 @@
          {width: 100px;}
          #venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune {display: none;}
          #venusinfo, #earthinfo, #marsinfo, #jupiterinfo, #saturninfo, #uranusinfo, #neptuneinfo {display: none;}
-         #mercury, #venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune {float: left; margin-left: 10px;}
+         #bigimages {float: left; margin-left: 10px;}
+         #clear {clear: both;}
 
      </style>
      <script>
-
+        function PlanetsOff() {
+            document.getElementById('mercury').style.display ='none';
+            document.getElementById('venus').style.display ='none';
+            document.getElementById('earth').style.display ='none';
+            document.getElementById('mars').style.display ='none';
+            document.getElementById('jupiter').style.display ='none';
+            document.getElementById('saturn').style.display ='none';
+            document.getElementById('uranus').style.display ='none';
+            document.getElementById('neptune').style.display ='none';
+        }
      </script>
  </head>
  <body>
  <div id="slideshow-container">
      <div id="bigimages">
-         <img src="https://peopel-su.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercury">
-         <img src="https://peopel-su.github.io/ist263/images/venus.jpg" alt="venus" id="venus">
-         <img src="https://peopel-su.github.io/ist263/images/earth.jpg" alt="earth" id="earth">
-         <img src="https://peopel-su.github.io/ist263/images/mars.jpg" alt="mars" id="mars">
-         <img src="https://peopel-su.github.io/ist263/images/jupiter.jpg" alt="jupiter" id="jupiter">
-         <img src="https://peopel-su.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturn">
-         <img src="https://peopel-su.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranus">
-         <img src="https://peopel-su.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune">
+         <img src="https://peopel-su.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercury" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/venus.jpg" alt="venus" id="venus" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/earth.jpg" alt="earth" id="earth" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/mars.jpg" alt="mars" id="mars" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/jupiter.jpg" alt="jupiter" id="jupiter" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/saturn.jpg" alt="saturn" id="saturn" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/uranus.jpg" alt="uranus" id="uranus" onclick="PlanetsOff()">
+         <img src="https://peopel-su.github.io/ist263/images/neptune.jpg" alt="neptune" id="neptune" onclick="PlanetsOff()">
      </div>
      <div id="planetinfo">        
          <h1>Planets Slideshow</h1>
@@ -76,6 +86,7 @@
              <p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus.</p>
          </div>
      </div>
+     <div id="clear"></div>
      <div id="thumbnails">
          <img src="https://peopel-su.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercurythumb">
          <img src="https://peopel-su.github.io/ist263/images/venus.jpg" alt="venus" id="venusthumb">
