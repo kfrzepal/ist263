@@ -16,10 +16,10 @@ hr, a {color: #fb4444}
 
 .info {
     flex: 2; 
-    margin: 10px; 
+    margin: 10px 10px 20px 10px; 
     background-color: seashell; 
     border-radius: 1em;
-    padding: 20px
+    padding: 10px
 }
 .duomo {flex: 1; float: right;}
 
