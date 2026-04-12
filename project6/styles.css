@@ -1,4 +1,7 @@
-body {background-color: #a9e2fa;}
+body {
+    background-color: #fdc7c7;
+    color: #fb4444
+}
 .outerinfo {display: flex}
 .homepictures {display: flex}
 h1, nav {flex-basis: center;}
