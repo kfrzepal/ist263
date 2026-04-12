@@ -5,3 +5,5 @@ body {
 .outerinfo {display: flex}
 .homepictures {display: flex}
 h1, nav {flex-basis: center;}
+
+.info {flex: 2}
