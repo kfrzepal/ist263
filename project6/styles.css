@@ -35,6 +35,6 @@ hr, a {color: #fb4444;}
     }
     span {display: none}
     .outerinfo {max-width: 100%}
-    #duomo {max-width: 100%;}
+    #duomo {min-width: 100%;}
 
 }
