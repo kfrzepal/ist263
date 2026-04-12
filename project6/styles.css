@@ -8,9 +8,9 @@ body {
 }
 
 .homepictures {display: flex}
-.title {text-align: center; padding: 10px}
+.title {text-align: center; margin-bottom: 10px;}
 
-.info {flex: 1; padding: 10px; background-color: seashell;}
+.info {flex: 1; margin: 10px; background-color: seashell; border-radius: 1em;}
 .duomo {flex: 1}
 
 #duomo {border-radius: 1em;}
