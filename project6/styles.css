@@ -10,7 +10,7 @@ body {
 
 hr, a {color: #fb4444}
 
-.homepictures {display: flex; border: 2px solid #ff8686}
+.homepictures {display: flex; border: 10px solid #ff8686}
 .homepictures img {flex: 1}
 .title {text-align: center; margin-bottom: 10px;}
 
