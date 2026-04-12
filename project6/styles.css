@@ -6,7 +6,6 @@ body {
 .outerinfo {
     display: flex; 
     border-radius: 1em;
-    flex-wrap: wrap;
 }
 
 hr, a {color: #fb4444;}
@@ -35,5 +34,6 @@ hr, a {color: #fb4444;}
         margin: 10px;
     }
     span {display: none}
+    .outerinfo {flex-wrap: wrap;}
 
 }
