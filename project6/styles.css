@@ -6,11 +6,12 @@ body {
 .outerinfo {
     display: flex; 
     border-radius: 1em;
+    flex-wrap: wrap;
 }
 
-hr, a {color: #fb4444}
+hr, a {color: #fb4444;}
 
-.homepictures {display: flex; border: 10px solid #ff8686; border-radius: 1em; flex-wrap: wrap;}
+.homepictures {display: flex; border: 10px solid #ff8686; border-radius: 1em; flex-wrap: wrap}
 .homepictures img {flex: 1}
 .title {text-align: center; margin-bottom: 10px;}
 
@@ -20,7 +21,6 @@ hr, a {color: #fb4444}
     background-color: seashell; 
     border-radius: 1em;
     padding: 10px;
-    flex-wrap: wrap;
 }
 .duomo {flex: 1; float: right;}
 
