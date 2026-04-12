@@ -34,8 +34,6 @@ hr, a {color: #fb4444;}
         margin: 10px;
     }
     span {display: none}
-    .outerinfo {flex-wrap: wrap;}
-    .info {flex-wrap: wrap;}
-    .duomo {flex-wrap: wrap;}
+    .outerinfo {max-width: 100%}
 
 }
