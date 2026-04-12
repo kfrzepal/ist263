@@ -21,8 +21,9 @@ hr, a {color: #fb4444;}
     background-color: seashell; 
     border-radius: 1em;
     padding: 10px;
+    flex-wrap: wrap;
 }
-.duomo {flex: 1;}
+.duomo {flex: 1; flex-wrap: wrap}
 
 
 #duomo {border-radius: 1em;}
