@@ -4,6 +4,7 @@ body {
 }
 .outerinfo {display: flex}
 .homepictures {display: flex}
-h1, nav {flex-basis: center;}
+h1, nav {text-align: center;}
 
-.info {flex: 2}
+.info {flex: 1}
+.duomo {flex: 1}
