@@ -4,13 +4,13 @@ body {
 }
 .outerinfo {
     display: flex; 
-    background-color: #ffffff; 
     border-radius: 1em;
 }
+
 .homepictures {display: flex}
 .title {text-align: center; padding: 10px}
 
-.info {flex: 1; padding: 10px}
+.info {flex: 1; padding: 10px; background-color: seashell;}
 .duomo {flex: 1}
 
 #duomo {border-radius: 1em;}
