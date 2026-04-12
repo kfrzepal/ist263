@@ -22,7 +22,7 @@ hr, a {color: #fb4444;}
     border-radius: 1em;
     padding: 10px;
 }
-.duomo {flex: 1; float: right;}
+.duomo {flex: 1;}
 
 
 #duomo {border-radius: 1em;}
