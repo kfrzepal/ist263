@@ -6,6 +6,7 @@ body {
 .outerinfo {
     display: flex; 
     border-radius: 1em;
+    flex-wrap: wrap;
 }
 
 hr, a {color: #fb4444;}
@@ -34,7 +35,6 @@ hr, a {color: #fb4444;}
         margin: 10px;
     }
     span {display: none}
-    .outerinfo {max-width: 100%}
-    #duomo {min-width: 100%;}
-
+    .outerinfo {flex-direction: column;}
 }
+
