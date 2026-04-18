@@ -5,6 +5,7 @@ a {color:#3d81b8 }
 h1 {color: #a72566}
 h2 {color: #bc2973}
 ul {color:#7d1c4d;}
+.skip {color: #7d1c4d;}
 
 /*Navigation Bar*/
 nav {
@@ -66,7 +67,6 @@ form label {color:#7d1c4d}
   width: 1px;
   height: 1px;
   overflow: hidden;
-  color: #7d1c4d;
 }
 .skip:focus {
   position: static;
