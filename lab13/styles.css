@@ -38,9 +38,9 @@ nav a:hover {background-color:#FFFFFF}
     flex-wrap: wrap;
 }
 .address{padding: 30px;}
-.form {padding: 10px;flex: 1; color:#ff87ab}
+.form {padding: 10px;flex: 1; color:#7d1c4d}
 .map {flex: 3em; border-radius: 1em}
-form label {color:#ff87ab}
+form label {color:#7d1c4d}
 
 /*Skills Page*/
 .skillsheading {text-align: center;}
