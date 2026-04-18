@@ -66,6 +66,7 @@ form label {color:#7d1c4d}
   width: 1px;
   height: 1px;
   overflow: hidden;
+  color: #7d1c4d;
 }
 .skip:focus {
   position: static;
