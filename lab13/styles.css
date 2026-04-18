@@ -56,3 +56,15 @@ form label {color:#ff87ab}
     }
     span {display: none}
 }
+
+/*Skip to Content*/
+.skip {
+                background-color: orange;
+                padding: 8px;
+                border: 2px solid black;
+                text-decoration: none;
+                position: absolute; /* positions relative to top and bottom of viewport */
+                top: 10px;
+                left: -999px; /* push the button off screen */
+            }
+            .skip:focus {left: 10px;} /*when the button is tabbed to */
