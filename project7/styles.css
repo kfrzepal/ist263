@@ -1,10 +1,12 @@
 body {
     background-color: #fdc7c7;
     color: #fb4444;
-    font-family: "Playwrite NZ Guides", cursive;
-    font-weight: 400;
+    font-family: "Playwrite NO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
 }
+
 
 
 .outerinfo {
