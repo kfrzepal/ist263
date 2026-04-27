@@ -8,7 +8,6 @@ body {
 }
 
 
-
 .outerinfo {
     display: flex; 
     border-radius: 1em;
@@ -17,8 +16,8 @@ body {
 
 hr, a {color: #fb4444;}
 
-.homepictures {display: flex; border: 10px solid #ff8686; border-radius: 1em; flex-wrap: wrap}
-.homepictures img {flex: 1}
+.homepictures {display: flex; border: 10px solid #ff8686; flex-wrap: wrap; max-width: 100%;}
+.homepictures img {flex: 1; max-width: 100%;}
 .title {text-align: center; margin-bottom: 10px;}
 
 .info {
@@ -31,8 +30,7 @@ hr, a {color: #fb4444;}
 }
 .duomo {flex: 1; flex-wrap: wrap}
 
-
-#duomo {border-radius: 1em;}
+#duomo {border-radius: 1em; border: 10px solid #ff8686}
 
 @media only screen and (max-width:600px) {
     nav a {
@@ -43,4 +41,26 @@ hr, a {color: #fb4444;}
     span {display: none}
     .outerinfo {flex-direction: column;}
 }
+#affogato, #board, #pizza, #wine, #pho, #spaghetti {border: 10px solid #ff8686}
 
+.main {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 2fr 2fr;
+  gap: 3px;
+  background-color: #ff8686;
+  padding: 5px;
+}
+.main div {
+  background-color: white;
+  padding: 10px;
+}
+
+.fdimages {padding: 10px}
+header {text-align: center;}
+
+.restaurants, .cafes, .bars, .gelato {display: flex;}
+#pizza, #wine, #board, #affogato {float: right;}
