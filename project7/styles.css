@@ -50,6 +50,18 @@ hr, a {color: #fa1e1e;}
     .homepictures {flex-direction: column;}
 }
 
+@media only screen and (min-width:600px) {
+    .homepictures {flex-direction: column}
+}
+
+@media only screen and (min-width:768px) {
+    .homepictures {flex-direction: column}
+}
+
+@media only screen and (max-width:992px) {
+    .homepictures {flex-direction: column}
+}
+
 #affogato, #board, #pizza, #wine, #pho, #spaghetti {border: 10px solid #ff8686}
 
 .main {
