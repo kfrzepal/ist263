@@ -99,3 +99,17 @@ main ul {
 }
 
 #gardens, #pisa {margin: 10px; border: 10px solid #ff8686}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
