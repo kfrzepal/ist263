@@ -1,6 +1,6 @@
 body {
     background-color: #fdc7c7;
-    color: #fb4444;
+    color: #fb3737;
     font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -13,7 +13,7 @@ body {
     flex-wrap: wrap;
 }
 
-hr, a {color: #fb4444;}
+hr, a {color: #fb3737;}
 
 .homepictures {display: flex; border: 10px solid #ff8686; flex-wrap: wrap; max-width: 100%;}
 .homepictures img {flex: 1; max-width: 100%;}
@@ -25,7 +25,8 @@ hr, a {color: #fb4444;}
     background-color: seashell;
     padding: 10px;
     flex-wrap: wrap;
-    border: 10px solid #ff8686
+    border: 10px solid #ff8686;
+    font-weight: bold;
 }
 .duomo {
     flex: 1; 
