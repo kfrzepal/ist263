@@ -10,7 +10,6 @@ body {
 
 .outerinfo {
     display: flex; 
-    border-radius: 1em;
     flex-wrap: wrap;
 }
 
@@ -23,14 +22,18 @@ hr, a {color: #fb4444;}
 .info {
     flex: 2; 
     margin: 10px 10px 20px 10px; 
-    background-color: seashell; 
-    border-radius: 1em;
+    background-color: seashell;
     padding: 10px;
     flex-wrap: wrap;
+    border: 10px solid #ff8686
 }
-.duomo {flex: 1; flex-wrap: wrap}
+.duomo {
+    flex: 1; 
+    flex-wrap: wrap;
+    margin: 10px 10px 20px 10px; 
+}
 
-#duomo {border-radius: 1em; border: 10px solid #ff8686}
+#duomo {border: 10px solid #ff8686}
 
 @media only screen and (max-width:600px) {
     nav a {
@@ -45,22 +48,28 @@ hr, a {color: #fb4444;}
 
 .main {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "menu content"
-    "footer footer";
+  grid-template-areas:"menu content";
   grid-template-columns: 2fr 2fr;
   gap: 3px;
   background-color: #ff8686;
   padding: 5px;
 }
 .main div {
-  background-color: white;
+  background-color: seashell;
   padding: 10px;
 }
 
 .fdimages {padding: 10px}
 header {text-align: center;}
-
-.restaurants, .cafes, .bars, .gelato {display: flex;}
+.restaurants, .bars, .cafes, .gelato {display: flex;}
 #pizza, #wine, #board, #affogato {float: right;}
+
+main ul {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.explore {display: flex;}
+.exploreimg {float: right; margin: 10px}
