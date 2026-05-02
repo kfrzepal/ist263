@@ -3,7 +3,7 @@ body {
     color: #fb3737;
     font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -26,7 +26,6 @@ hr, a {color: #fb3737;}
     padding: 10px;
     flex-wrap: wrap;
     border: 10px solid #ff8686;
-    font-weight: bold;
 }
 .duomo {
     flex: 1; 
@@ -69,7 +68,7 @@ header {text-align: center;}
 main ul {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -85,7 +84,7 @@ main ul {
 .text {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 }
 
