@@ -44,6 +44,7 @@ hr, a {color: #fb4444;}
     span {display: none}
     .outerinfo {flex-direction: column;}
 }
+
 #affogato, #board, #pizza, #wine, #pho, #spaghetti {border: 10px solid #ff8686}
 
 .main {
@@ -72,4 +73,15 @@ main ul {
 }
 
 .explore {display: flex;}
-.exploreimg {float: right; margin: 10px}
+.exploreimg {
+    float: right; 
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
