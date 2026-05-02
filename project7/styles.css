@@ -42,7 +42,7 @@ hr, a {color: #fb3737;}
         margin: 10px;
     }
     span {display: none}
-    .outerinfo {flex-direction: column;}
+    .outerinfo {flex-direction: column; max-width: 100%;}
 }
 
 #affogato, #board, #pizza, #wine, #pho, #spaghetti {border: 10px solid #ff8686}
