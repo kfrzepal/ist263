@@ -20,8 +20,10 @@ hr, a {color: #fa1e1e;}
     border: 10px solid #ff8686;
     max-width: 100%;
 }
-.homepictures img {flex: 1 1 200px; max-width: 100%;}
+.homepictures img {flex: 1; max-width: 100%;}
 .title {text-align: center; margin-bottom: 10px;}
+
+#sunset, #city, #david, #bridge {max-width: 100%}
 
 .info {
     flex: 2; 
