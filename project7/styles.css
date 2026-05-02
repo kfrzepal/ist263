@@ -1,6 +1,6 @@
 body {
     background-color: #fee6e6;
-    color: #fb5050;
+    color: #fa1e1e;
     font-family: "Playwrite NO", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -13,10 +13,10 @@ body {
     flex-wrap: wrap;
 }
 
-hr, a {color: #fb5050;}
+hr, a {color: #fa1e1e;}
 
 .homepictures {display: flex; border: 10px solid #ff8686; flex-wrap: wrap; max-width: 100%;}
-.homepictures img {flex: 1; max-width: 100%;}
+.homepictures img {flex: 1 1 auto; max-width: 100%;}
 .title {text-align: center; margin-bottom: 10px;}
 
 .info {
