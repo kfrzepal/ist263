@@ -17,14 +17,11 @@ hr, a {color: #fa1e1e;}
 
 .homepictures {
     display: flex; 
-    border: 10px solid #ff8686; 
-    flex-wrap: wrap; 
+    border: 10px solid #ff8686;
     max-width: 100%;
 }
 .homepictures img {flex: 1 1 200px; max-width: 100%;}
 .title {text-align: center; margin-bottom: 10px;}
-
-#bridge, #city, #sunset, #david {max-width: 100%}
 
 .info {
     flex: 2; 
