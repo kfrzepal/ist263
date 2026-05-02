@@ -13,6 +13,7 @@ body {
     flex-wrap: wrap;
 }
 
+h1, h2 {color: #fa1e1e;}
 hr, a {color: #fa1e1e;}
 
 .homepictures {
