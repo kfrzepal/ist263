@@ -88,4 +88,4 @@ main ul {
     font-style: normal;
 }
 
-#gardens, #statue, #pisa {margin: 10px}
+#gardens, #statue, #pisa {margin: 10px; border: 10px solid #ff8686}
